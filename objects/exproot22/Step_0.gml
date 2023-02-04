@@ -1,7 +1,7 @@
 if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_right) or keyboard_check_pressed(vk_up) or keyboard_check_pressed(vk_down){
 	if global.state = 0{
 		length = length + 1
-		instance_create_layer(x,y-64,exproot11.layer,rock)
+		instance_create_layer(x,y-64,exproot22.layer,rock)
 		if length > 4{
 			global.state = 1
 		}
