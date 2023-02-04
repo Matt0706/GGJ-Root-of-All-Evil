@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "extroot",
+  "name": "t15",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "testspritep1",
-    "path": "sprites/testspritep1/testspritep1.yy",
+    "name": "p25",
+    "path": "sprites/p25/p25.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -38,14 +38,14 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_right) or keyboa
 		}
 	}
 }
-if x > 768{
-	x = 768
+if x > 832{
+	x = 832
 }
 if x < 0{
 	x = 0
 }
-if y > 768{
-	y = 768
+if y > 832{
+	y = 832
 }
 if y < 0{
 	y = 0

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "rootbehind",
+  "name": "t9",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "root2",
-    "path": "sprites/root2/root2.yy",
+    "name": "p19",
+    "path": "sprites/p19/p19.yy",
   },
   "spriteMaskId": null,
   "visible": true,

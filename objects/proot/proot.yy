@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "rock",
+  "name": "proot",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "root2",
-    "path": "sprites/root2/root2.yy",
+    "name": "testspritep1",
+    "path": "sprites/testspritep1/testspritep1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
