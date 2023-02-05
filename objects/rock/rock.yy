@@ -28,9 +28,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "root2",
-    "path": "sprites/root2/root2.yy",
+    "name": "testrock",
+    "path": "sprites/testrock/testrock.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

@@ -1,4 +1,3 @@
-x = 384
-y = 0
+x = 416
+y = 32
 global.direct = 3
-global.ldirect = 3

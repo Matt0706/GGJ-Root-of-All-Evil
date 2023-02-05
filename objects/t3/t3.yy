@@ -30,5 +30,5 @@
     "path": "sprites/p13/p13.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

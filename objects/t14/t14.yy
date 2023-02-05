@@ -30,5 +30,5 @@
     "path": "sprites/p24/p24.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

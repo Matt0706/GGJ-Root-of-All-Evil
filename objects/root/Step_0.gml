@@ -1,9 +1,14 @@
+if keyboard_check_pressed(ord("R")){
+	room_restart()
+}
 if keyboard_check_pressed(vk_down){
 	if place_meeting(x,y+64,rock){
 		y = y + 0
 	}
 	else{
-		instance_create_layer(x,y,root.layer,rock)		
+		global.direct = 3
+		instance_create_layer(x,y,root.layer,rock)	
+		instance_create_layer(x,y,root.layer,rootbehind)	
 		y = y + 64
 	}
 }
@@ -12,7 +17,9 @@ if keyboard_check_pressed(vk_up){
 		y = y + 0
 	}
 	else{
+		global.direct = 1
 		instance_create_layer(x,y,root.layer,rock)
+		instance_create_layer(x,y,root.layer,rootbehind)	
 		y = y - 64
 	}
 }
@@ -21,7 +28,9 @@ if keyboard_check_pressed(vk_right){
 		y = y + 0
 	}
 	else{
+		global.direct = 2
 		instance_create_layer(x,y,root.layer,rock)
+		instance_create_layer(x,y,root.layer,rootbehind)	
 		x = x + 64
 	}
 }
@@ -30,7 +39,9 @@ if keyboard_check_pressed(vk_left){
 		y = y + 0
 	}
 	else{
-		instance_create_layer(x,y,root.layer,rock){
+		global.direct = 4
+		instance_create_layer(x,y,root.layer,rock)
+		instance_create_layer(x,y,root.layer,rootbehind)	{
 		x = x - 64
 		}
 	}

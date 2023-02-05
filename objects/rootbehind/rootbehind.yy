@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "t4",
-  "eventList": [],
+  "name": "rootbehind",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,9 +29,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "p14",
-    "path": "sprites/p14/p14.yy",
+    "name": "root2",
+    "path": "sprites/root2/root2.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

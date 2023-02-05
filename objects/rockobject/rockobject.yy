@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "t4",
+  "name": "rockobject",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,9 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "p14",
-    "path": "sprites/p14/p14.yy",
+    "name": "stone",
+    "path": "sprites/stone/stone.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

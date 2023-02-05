@@ -3,20 +3,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t1.x{
 			if x > t1.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t1.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t1.y{
 			if y > t1.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t1.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -28,20 +32,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t2.x{
 			if x > t2.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t2.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t2.y{
 			if y > t2.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t2.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -53,20 +61,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t3.x{
 			if x > t3.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t3.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t3.y{
 			if y > t3.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t3.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -78,20 +90,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t4.x{
 			if x > t4.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t4.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t4.y{
 			if y > t4.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t4.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -103,20 +119,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t5.x{
 			if x > t5.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t5.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t5.y{
 			if y > t5.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t5.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -128,20 +148,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t6.x{
 			if x > t6.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t6.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t6.y{
 			if y > t6.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t6.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -153,20 +177,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t7.x{
 			if x > t7.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t7.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t7.y{
 			if y > t7.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t7.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -178,20 +206,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t8.x{
 			if x > t8.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t8.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t8.y{
 			if y > t8.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t8.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -203,20 +235,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t9.x{
 			if x > t4.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t9.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t9.y{
 			if y > t9.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t9.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -228,20 +264,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t10.x{
 			if x > t10.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t10.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t10.y{
 			if y > t10.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t10.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -253,20 +293,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t11.x{
 			if x > t11.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t11.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t11.y{
 			if y > t11.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t11.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -278,20 +322,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t12.x{
 			if x > t12.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t12.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t12.y{
 			if y > t12.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t12.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -303,20 +351,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t13.x{
 			if x > t13.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t13.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t13.y{
 			if y > t13.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t13.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -328,20 +380,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t14.x{
 			if x > t14.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t14.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t14.y{
 			if y > t4.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t14.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}
@@ -353,20 +409,24 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_up) or keyboard_
 		if x != t15.x{
 			if x > t15.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x - 64
 			}
 			if x < t15.x{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				x = x+ 64
 			}
 		}
 		if y != t15.y{
 			if y > t15.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y - 64
 			}
 			if y < t15.y{
 				instance_create_layer(x,y,oroot.layer,rock)
+				instance_create_layer(x,y,root.layer,rootbehind)
 				y = y+ 64
 			}
 		}

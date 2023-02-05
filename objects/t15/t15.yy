@@ -30,5 +30,5 @@
     "path": "sprites/p25/p25.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
