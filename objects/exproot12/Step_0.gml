@@ -2,6 +2,7 @@ if keyboard_check_pressed(vk_left) or keyboard_check_pressed(vk_right) or keyboa
 	if global.state = 0{
 		length = length + 1
 		instance_create_layer(x-64,y,exproot12.layer,rock)
+		instance_create_layer(x-64,y,exproot12.layer,rootbehind)
 		if length > 4{
 			global.state = 1
 		}
