@@ -71,8 +71,10 @@
     {"id":{"name":"WormUp","path":"objects/WormUp/WormUp.yy",},"order":0,},
     {"id":{"name":"testspritep1","path":"sprites/testspritep1/testspritep1.yy",},"order":3,},
     {"id":{"name":"p15","path":"sprites/p15/p15.yy",},"order":11,},
+    {"id":{"name":"lvl3","path":"rooms/lvl3/lvl3.yy",},"order":0,},
     {"id":{"name":"t6","path":"objects/t6/t6.yy",},"order":0,},
     {"id":{"name":"oroot","path":"objects/oroot/oroot.yy",},"order":8,},
+    {"id":{"name":"lvl2","path":"rooms/lvl2/lvl2.yy",},"order":0,},
     {"id":{"name":"t10","path":"objects/t10/t10.yy",},"order":0,},
     {"id":{"name":"exproot22","path":"objects/exproot22/exproot22.yy",},"order":0,},
     {"id":{"name":"WormLeft","path":"objects/WormLeft/WormLeft.yy",},"order":0,},
@@ -92,6 +94,8 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"lvl1","path":"rooms/lvl1/lvl1.yy",},},
+    {"roomId":{"name":"lvl2","path":"rooms/lvl2/lvl2.yy",},},
+    {"roomId":{"name":"lvl3","path":"rooms/lvl3/lvl3.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
