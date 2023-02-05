@@ -1,4 +1,5 @@
 if keyboard_check_pressed(ord("R")){
+	audio_stop_sound(music)
 	room_restart()
 }
 if keyboard_check_pressed(vk_down){
@@ -45,6 +46,10 @@ if keyboard_check_pressed(vk_left){
 		x = x - 64
 		}
 	}
+}
+if !place_meeting(x,y,water) and place_meeting(x,y+64,rock) and place_meeting(x,y-64,rock) and place_meeting(x+64,y,rock) and place_meeting(x-64,y,rock) {
+	audio_stop_sound(music)
+	room_restart()
 }
 if x > 800{
 	x = 800
